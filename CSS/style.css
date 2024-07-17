@@ -80,12 +80,15 @@ body{
 .banner-title{
     font-size: 4.9rem;
     font-weight: 900;
-    line-height: 100%;
+    line-height: 122%;
 }
 .banner-title span{
+    font-size: 7.9rem;
     font-family: 'Miama', sans-serif;
+    font-weight: 400;
 }
 .banner-sub-title{
+    max-width: 520px;;
     font-size: 16px;
     color: rgb(255, 255, 255, 0.5);
     margin: 28px 0;
@@ -128,10 +131,16 @@ body{
     font-weight: 400;
 }
 .circle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 40px;
     height: 40px;
     border-radius: 50%;
     margin-right: 8px;
+}
+.circle i{
+    font-size: 15px;
 }
 .video-tutorial{
     display: flex;
@@ -148,7 +157,7 @@ body{
 .video-tutorial{
     position: absolute;
     bottom: 12%;
-    left: -25%;
+    left: -32%;
 }
 /* responsive design */
 
@@ -172,15 +181,72 @@ body{
     .banner-title{
         font-size: 2.25rem;
     }
+    .banner-title span{
+        font-size: 4.25rem;
+    }
+    .banner-btn button{
+        font-size: 12px;
+        padding: 0.5rem 1rem;
+    }
+    .video-bg{
+        width: 145.91px;
+        height: 74.09px;
+    }
+    .free-video{
+        top: 7%;
+        left: 55%;
+    }
+    .video-tutorial{
+        bottom: 40%;
+        left: 0%;
+    }
+    .free-video-title{
+        font-size: 30px;
+    }
+    .free-video-sub-title{
+        font-size: 12px;
+    }
+    .circle{
+        width: 30px;
+        height: 30px;
+    }
 }
 /* medium devices */
 @media screen and (min-width:576px) and (max-width:992px) {
     .navbar{
         width: 90%;
     }
+    .nav-menu{
+        gap: 20px;
+    }
+    .nav-menu li a{
+        font-size: 15px;
+    }
     .banner{
         flex-direction: column;
         margin-top: 51px;
+    }
+    .banner-btn button{
+        font-size: 15px;
+        padding: 0.8rem 2rem;
+    }
+    .free-video{
+        top: 7%;
+        left: 55%;
+    }
+    .video-tutorial{
+        bottom: 25%;
+        left: -10%;
+    }
+    .free-video-title{
+        font-size: 30px;
+    }
+    .free-video-sub-title{
+        font-size: 12px;
+    }
+    .circle{
+        width: 30px;
+        height: 30px;
     }
 }
 
