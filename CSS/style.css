@@ -2,13 +2,15 @@
 
 @import url('https://fonts.cdnfonts.com/css/miama');
 
-/* font-family: 'Miama', sans-serif; */
-
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: "Inter", sans-serif;
+}
+body{
+    background-color: #000000;
+    color: #ffffff;
 }
 /* shared styles */
 .bg-color{
@@ -18,12 +20,13 @@
 /* header styles */
 .header{
     background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);
+    width: 100%;
     height: 70vh;
     padding-top: 3.56rem;
 }
 /* navbar styles */
 .navbar{
-    width: 90%;
+    width: 80%;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
@@ -51,10 +54,9 @@
     text-decoration: none;
     font-size: 1.125rem;
     font-weight: 400;
-    color: #ffff;
+    color: #ffffff;
 }
 .home-focus{
-    background-color: #E6533C;
     padding: 8px 20px;
     border-radius: 50px;
 }
@@ -62,29 +64,124 @@
     display: none;
 }
 .burger-menu i{
-    color: #ffff;
     font-size: 1.5rem;
 }
 
-
-
-
-
+/* banner styles */
+.banner{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 6rem;
+    gap: 5.5rem;
+}
+.banner-title{
+    font-size: 4.9rem;
+    font-weight: 900;
+    line-height: 100%;
+}
+.banner-title span{
+    font-family: 'Miama', sans-serif;
+}
+.banner-sub-title{
+    font-size: 16px;
+    color: rgb(255, 255, 255, 0.5);
+    margin: 28px 0;
+    line-height: 24px;
+}
+.banner-btn button{
+    font-size: 18px;
+    font-weight: 600;
+    color: #ffffff;
+    padding: 1rem 2.9rem;
+    border: none;
+    border-radius: 2.6rem;
+}
+.join-club{
+    margin-right: 14px;
+}
+.download{
+    background: transparent;
+    border: 1px solid #ffffff !important;
+}
+.video-bg{
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    backdrop-filter: blur(20px);
+    background: rgba(255, 255, 255, 0.1);
+    width: 193px;
+    height: 98px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.free-video-title{
+    font-size: 40px;
+    font-weight: 900;
+    margin-bottom: 5px;
+}
+.free-video-sub-title{
+    color: rgba(255, 255, 255, 0.65);
+    font-size: 13px;
+    font-weight: 400;
+}
+.circle{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 8px;
+}
+.video-tutorial{
+    display: flex;
+    align-items: center;
+}
+.banner-img-container{
+    position: relative;
+}
+.free-video{
+    position: absolute;
+    top: 16%;
+    left: 58%;
+}
+.video-tutorial{
+    position: absolute;
+    bottom: 12%;
+    left: -25%;
+}
 /* responsive design */
 
 /* small devices */
 
 @media screen and (max-width:576px) {
+    .navbar{
+        width: 90%;
+    }
     .nav-menu{
         display: none;
     }
     .burger-menu{
         display: block;
     }
+    .banner{
+        width: 90%;
+        flex-direction: column;
+        margin-top: 51px;
+    }
+    .banner-title{
+        font-size: 2.25rem;
+    }
 }
 /* medium devices */
 @media screen and (min-width:576px) and (max-width:992px) {
-    
+    .navbar{
+        width: 90%;
+    }
+    .banner{
+        flex-direction: column;
+        margin-top: 51px;
+    }
 }
 
 /* large devices */
