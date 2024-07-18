@@ -30,6 +30,14 @@ body{
     font-weight: 400;
     line-height: 24px;
 }
+.btn{
+    font-size: 18px;
+    font-weight: 600;
+    color: #ffffff;
+    padding: 1rem 2.9rem;
+    border: none;
+    border-radius: 2.6rem;
+}
 /* header styles */
 .header{
     background: linear-gradient(180.00deg, rgb(50, 50, 50),rgba(119, 119, 119, 0) 100%);
@@ -107,14 +115,6 @@ body{
     margin: 28px 0;
     line-height: 24px;
 }
-.banner-btn button{
-    font-size: 18px;
-    font-weight: 600;
-    color: #ffffff;
-    padding: 1rem 2.9rem;
-    border: none;
-    border-radius: 2.6rem;
-}
 .join-club{
     margin-right: 14px;
 }
@@ -176,11 +176,11 @@ body{
 main section{
     width: 80%;
     margin: 0 auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
 }
 /* change habit */
-.change-habit{
-    margin-top: 200px;
-}
+
 .change-habit-img-container{
     display: grid;
     grid-template-columns: repeat(4,1fr);
@@ -198,7 +198,23 @@ main section{
     margin-bottom: 6px;
 }
 
-
+/* run */
+.run-extra-mile{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 18px;
+    background: rgb(34, 34, 34);
+    padding: 40px 54px;
+}
+.run-img img{
+    border-radius: 18px;
+    width: 100%;
+}
+.run-text-content .section-subtitle{
+    margin-top: 14px;
+    margin-bottom: 34px;
+}
 
 
 
@@ -238,7 +254,7 @@ main section{
     .banner-title span{
         font-size: 4.25rem;
     }
-    .banner-btn button{
+    .btn{
         font-size: 14px;
         padding: 0.5rem 1rem;
     }
@@ -264,6 +280,9 @@ main section{
         width: 30px;
         height: 30px;
     }
+    main section{
+        width: 90%;
+    }
     .change-habit{
         margin-top: 42rem;
     }
@@ -272,6 +291,13 @@ main section{
     }
     .section-title{
         font-size: 1.6rem;
+    }
+    .run-extra-mile{
+        flex-direction: column;
+        padding: 20px;
+    }
+    .run-img img{
+        margin-top: 31px;
     }
 }
 /* medium devices */
@@ -317,6 +343,16 @@ main section{
     .change-habit-img-container{
         grid-template-columns: repeat(2,1fr);
     }
+    main section{
+        width: 90%;
+    }
+    .section-title{
+        font-size: 2rem;
+    }
+    .run-extra-mile{
+        padding: 30px;
+        gap: 65px;
+    }
 }
 
 /* large devices */
@@ -340,6 +376,9 @@ main section{
     }
     .change-habit-img-container{
         grid-template-columns: repeat(2,1fr);
+    }
+    main section{
+        width: 95%;
     }
 }
 
