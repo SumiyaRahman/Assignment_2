@@ -282,8 +282,6 @@ body{
 
 /* BMI Calculator */
 .BMI-title{
-    display: flex;
-    justify-content: center;
     margin-bottom: 80px;
 }
 .calculator-container{
@@ -336,7 +334,7 @@ input{
     color: #ffffff;
 } 
 .input-margin{
-    margin: 0 12px 12px 0;
+    margin-bottom: 12px;
 }
 input::placeholder, select{
     font-size: 16px;
@@ -345,7 +343,7 @@ input::placeholder, select{
     font-family: "Inter", sans-serif;
 }
 .activity{
-    width: 97.5%;
+    width: 95%;
 }
 .cal-btn{
     margin-top: 50px;
@@ -354,7 +352,9 @@ option{
     color: #ffffff;
     background-color: rgb(44, 44, 44);
 }
-
+/* .BMI-cal{
+    border: 2px solid white;
+} */
 
 
 
@@ -413,7 +413,7 @@ option{
         width: 30px;
         height: 30px;
     }
-    main section{
+    .section{
         width: 90%;
     }
     .change-habit{
@@ -423,7 +423,7 @@ option{
         grid-template-columns: repeat(1,1fr);
     }
     .section-title{
-        font-size: 1.6rem;
+        font-size: 1.8rem;
     }
     .run-extra-mile{
         flex-direction: column;
@@ -473,7 +473,7 @@ option{
         margin-top: 42px;
     }
     input,select{
-        width: 47%;
+        width: 49%;
     } 
     .input-margin{
         margin: 0 5px 10px 0;
@@ -487,6 +487,9 @@ option{
     .cal-btn{
         margin-top: 20px;
         font-size: 15px;
+    }
+    th,td{
+        padding: 10px 12px;
     }
 }
 
@@ -533,11 +536,11 @@ option{
     .change-habit-img-container{
         grid-template-columns: repeat(2,1fr);
     }
-    main section{
+    .section{
         width: 90%;
     }
     .section-title{
-        font-size: 2rem;
+        /* font-size: 2rem; */
     }
     .run-extra-mile{
         padding: 30px;
@@ -575,10 +578,10 @@ option{
         margin-top: 62px;
     }
     input,select{
-        width: 46%;
+        width: 49%;
     } 
     .activity{
-        width: 94.5%;
+        width: 99%;
     }
 }
 
@@ -604,7 +607,7 @@ option{
     .change-habit-img-container{
         grid-template-columns: repeat(2,1fr);
     }
-    main section{
+    .section{
         width: 95%;
     }
 }
