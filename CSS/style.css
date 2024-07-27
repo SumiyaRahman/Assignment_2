@@ -216,12 +216,69 @@ main section{
     margin-bottom: 34px;
 }
 
-
-
-
-
-
-
+/* Trainings and Exercises */
+.exercise-container{
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    grid-template-rows: repeat(2,1fr);
+    margin-top: 58px;
+}
+.exercise-container div{
+    height: 201.5px;
+}
+.exercise-container p{
+    margin: 24px;
+    font-size: 14px;
+    font-weight: 500;
+}
+.ex:nth-child(1){
+    grid-column-start: span 2;
+    background-image: linear-gradient(180.00deg, rgba(6, 255, 210, 0.5), rgba(6, 255, 210, 0.5)),url("../images/exercise1.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.ex:nth-child(2){
+    grid-column-start: span 6;
+    background-image: linear-gradient(180.00deg, rgba(255, 0, 0, 0.3), rgba(255, 0, 0, 0.3)),url("../images/exercise2.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.ex:nth-child(3){
+    grid-column-start: span 4;
+    background-image: linear-gradient(180.00deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("../images/exercise3.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.ex:nth-child(4){
+    grid-column-start: span 5;
+    background-image: linear-gradient(180.00deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("../images/exercise4.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-end;
+}
+.ex:nth-child(5){
+    grid-column-start: span 3;
+    background-image: linear-gradient(180.00deg, rgba(66, 255, 0, 0.3), rgba(66, 255, 0, 0.3)),url("../images/exercise5.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.ex:nth-child(6){
+    grid-column-start: span 4;
+    background-image: linear-gradient(180.00deg, rgba(0, 71, 255, 0.3), rgba(0, 71, 255, 0.3)),url("../images/exercise6.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.exercise-text{
+    display: flex;
+    align-items: flex-end;
+}
 
 
 
@@ -299,7 +356,34 @@ main section{
     .run-img img{
         margin-top: 31px;
     }
+    .exercise-container p{
+        margin: 12px;
+        font-size: 12px;
+        font-weight: 400;
+    }
+    .exercise-container div{
+        height: 128px;
+    }
+    .ex:nth-child(1){
+        grid-column-start: span 6;
+    }
+    .ex:nth-child(2){
+        grid-column-start: span 6;
+    }
+    .ex:nth-child(3){
+        display: none;
+    }
+    .ex:nth-child(4){
+        grid-column-start: span 5;
+    }
+    .ex:nth-child(5){
+        grid-column-start: span 7;
+    }
+    .ex:nth-child(6){
+        display: none;
+    }
 }
+
 /* medium devices */
 @media screen and (min-width:576px) and (max-width:992px) {
     .navbar{
@@ -352,6 +436,24 @@ main section{
     .run-extra-mile{
         padding: 30px;
         gap: 65px;
+    }
+    .ex:nth-child(1){
+        grid-column-start: span 3;
+    }
+    .ex:nth-child(2){
+        grid-column-start: span 5;
+    }
+    .ex:nth-child(3){
+        grid-column-start: span 4;
+    }
+    .ex:nth-child(4){
+        grid-column-start: span 6;
+    }
+    .ex:nth-child(5){
+        grid-column-start: span 3;
+    }
+    .ex:nth-child(6){
+        grid-column-start: span 3;
     }
 }
 
