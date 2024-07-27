@@ -330,6 +330,10 @@ input,select{
     border-radius: 8px;
     border: none;
     background: rgba(255, 255, 255, 0.1);
+    outline: none;
+}
+input{
+    color: #ffffff;
 } 
 .input-margin{
     margin: 0 12px 12px 0;
@@ -338,6 +342,7 @@ input::placeholder, select{
     font-size: 16px;
     font-weight: 400;
     color: rgba(255, 255, 255, 0.6);
+    font-family: "Inter", sans-serif;
 }
 .activity{
     width: 97.5%;
@@ -345,7 +350,10 @@ input::placeholder, select{
 .cal-btn{
     margin-top: 50px;
 }
-
+option{
+    color: #ffffff;
+    background-color: rgb(44, 44, 44);
+}
 
 
 
@@ -455,6 +463,7 @@ input::placeholder, select{
     }
     .calculator-container{
         flex-direction: column;
+        margin: 0 auto;
     }
     .Calculator-Chart,  .calculate-BMI{
         padding-left: 20px;
@@ -569,7 +578,7 @@ input::placeholder, select{
         width: 46%;
     } 
     .activity{
-        width: 96%;
+        width: 94.5%;
     }
 }
 
