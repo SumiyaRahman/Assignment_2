@@ -352,9 +352,75 @@ option{
     color: #ffffff;
     background-color: rgb(44, 44, 44);
 }
-/* .BMI-cal{
-    border: 2px solid white;
-} */
+
+/* meet our team */
+.team-members{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2,1fr);
+    border-radius: 18px;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 10px;
+    margin-top: 58px;
+}
+.team-members div{
+    height: 272px;
+    border-radius: 18px;
+    margin: 10px;
+}
+.trainer-details{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding-left: 19px;
+    padding-bottom: 16px;
+}
+.bg-img-1{
+    background-image: url("../images/trainer1.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bg-img-2{
+    background-image: url("../images/trainer2.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bg-img-3{
+    background-image: url("../images/trainer3.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bg-img-4{
+    background-image: url("../images/trainer4.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bg-img-5{
+    background-image: url("../images/trainer5.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bg-img-6{
+    background-image: url("../images/trainer6.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.trainer-name{
+    font-size: 20px;
+    line-height: 30px;
+}
+.trainer{
+    font-size: 14px;
+    color: rgb(255, 255, 255,0.5);
+}
+
+
 
 
 
@@ -490,6 +556,9 @@ option{
     }
     th,td{
         padding: 10px 12px;
+    }
+    .team-members{
+        grid-template-columns: repeat(1,1fr);
     }
 }
 
