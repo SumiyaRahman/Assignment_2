@@ -413,6 +413,7 @@ option{
 }
 .trainer-name{
     font-size: 20px;
+    font-weight: 600;
     line-height: 30px;
 }
 .trainer{
@@ -608,9 +609,6 @@ option{
     .section{
         width: 90%;
     }
-    .section-title{
-        /* font-size: 2rem; */
-    }
     .run-extra-mile{
         padding: 30px;
         gap: 65px;
@@ -651,6 +649,27 @@ option{
     } 
     .activity{
         width: 99%;
+    }
+    .team-members{
+        padding: 5px;
+        margin-top: 58px;
+    }
+    .team-members div{
+        margin: 5px;
+    }
+    .trainer-details{
+        padding-left: 12px;
+        padding-bottom: 12px;
+    }
+    .section-title{
+        font-size: 2rem;
+    }
+    .section-subtitle{
+        font-size: 12px;
+    }
+    .btn{
+        font-size: 16px;
+        padding: 0.8rem 2rem;
     }
 }
 
