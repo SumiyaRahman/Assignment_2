@@ -755,10 +755,7 @@ hr{
     .packages{
         grid-template-columns: repeat(1,1fr);
     }
-    .day-pass{
-        width: 300px;
-    }
-    .month-month{
+    .day-pass,  .month-month{
         width: 300px;
     }
     .from-punch{
@@ -917,6 +914,46 @@ hr{
     hr{
         width: 90%;
     }
+    .pack-container{
+        flex-wrap: wrap;
+        padding: 30px 5px 30px 5px;
+        gap: 40px;
+    }
+    .from-punch{
+        margin: 30px 0 20px 0;
+        font-size: 1.3rem;
+    }
+    .at-gym{
+        line-height: 23px;
+        font-weight: 300;
+        font-size: 14px;
+        text-align: justify;
+    }
+    .each-plan{
+        margin-top: 25px;
+        font-size: 1.2rem;
+    }
+    .pack-rule ul{
+        margin-top: 20px !important;
+    }
+    .pack-rule ul li{
+        margin: 10px 0;
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 23px;
+    }
+    .pack-rule ul li i{
+        color: #1f1f1f;
+        margin-right: 6px;
+        font-weight: 600;
+    }
+    .mem-hr{
+        width: 50px;
+    }
+    .day-pass,  .month-month{
+        width: 260px;
+        padding: 25px;
+    }
 }
 
 /* large devices */
@@ -943,6 +980,11 @@ hr{
     }
     .section{
         width: 95%;
+    }
+    .pack-container{
+        flex-wrap: wrap;
+        padding: 30px 5px 30px 5px;
+        gap: 40px;
     }
 }
 
