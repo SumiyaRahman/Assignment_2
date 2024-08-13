@@ -603,7 +603,7 @@ hr{
 
 @media screen and (max-width: 576px) {
     .navbar{
-        width: 90%;
+        /* width: 90%; */
     }
     .nav-menu{
         display: none;
@@ -612,7 +612,7 @@ hr{
         display: block;
     }
     .banner{
-        width: 90%;
+        /* width: 90%; */
         flex-direction: column;
         margin-top: 51px;
     }
@@ -652,7 +652,7 @@ hr{
         height: 30px;
     }
     .section{
-        width: 90%;
+        /* width: 90%; */
     }
     .change-habit-img-container{
         grid-template-columns: repeat(1,1fr);
@@ -796,7 +796,7 @@ hr{
 /* medium devices */
 @media screen and (min-width:576px) and (max-width:992px) {
     .navbar{
-        width: 90%;
+        /* width: 90%; */
     }
     .nav-menu{
         gap: 20px;
@@ -834,7 +834,7 @@ hr{
         grid-template-columns: repeat(2,1fr);
     }
     .section{
-        width: 90%;
+        /* width: 90%; */
     }
     .run-extra-mile{
         padding: 30px;
@@ -911,7 +911,7 @@ hr{
         margin-top: 20px;
     }
     hr{
-        width: 90%;
+        /* width: 90%; */
     }
     .pack-container{
         flex-wrap: wrap;
@@ -959,7 +959,7 @@ hr{
 
 @media screen and (min-width:992px) and (max-width:1400px){
     .navbar, .banner{
-        width: 95%;
+        /* width: 95%; */
     }
     .banner{
         flex-direction: column;
