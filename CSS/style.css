@@ -656,7 +656,7 @@ hr{
         width: 90%;
     }
     .change-habit{
-        margin-top: 42rem;
+        margin-top: 46rem;
     }
     .change-habit-img-container{
         grid-template-columns: repeat(1,1fr);
@@ -835,7 +835,7 @@ hr{
         height: 30px;
     }
     .change-habit{
-        margin-top: 50rem;
+        margin-top: 55rem;
     }
     .change-habit-img-container{
         grid-template-columns: repeat(2,1fr);
