@@ -589,7 +589,7 @@ footer{
     margin-bottom: 36px;
 }
 hr{
-    width: 65%;
+    width: 80%;
     border: none;
     border-bottom: 1px solid rgb(255, 255, 255, 0.1);
 }
@@ -650,9 +650,6 @@ hr{
     .circle{
         width: 30px;
         height: 30px;
-    }
-    .section{
-        /* width: 90%; */
     }
     .change-habit-img-container{
         grid-template-columns: repeat(1,1fr);
@@ -728,6 +725,9 @@ hr{
     }
     .team-members{
         grid-template-columns: repeat(1,1fr);
+    }
+    .bg-img-1, .bg-img-4{
+        display: none;
     }
     footer{
         padding: 20px 0;
@@ -832,9 +832,6 @@ hr{
     }
     .change-habit-img-container{
         grid-template-columns: repeat(2,1fr);
-    }
-    .section{
-        /* width: 90%; */
     }
     .run-extra-mile{
         padding: 30px;
@@ -973,9 +970,6 @@ hr{
     }
     .change-habit-img-container{
         grid-template-columns: repeat(2,1fr);
-    }
-    .section{
-        width: 95%;
     }
     .pack-container{
         flex-wrap: wrap;
