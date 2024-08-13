@@ -426,14 +426,13 @@ option{
 /* package plan */
 .pack-plan{
     background-color: #E6533C;
-    padding: 100px;
-    
     margin-top: 100px;
     margin-bottom: 100px;
 }
 .pack-container{
     display: flex;
-    gap: 100px;
+    justify-content: space-evenly;
+    padding: 50px 0 50px 0;
 }
 .packages{
     display: grid;
@@ -508,7 +507,7 @@ option{
 .month-month .get-btn{
     background-color:#f5f5f5;
     color:  #E6533C;
-    font-weight: 600;
+    font-weight: 500;
 }
 .member{
     font-size: 20px;
@@ -525,9 +524,10 @@ option{
     font-size: 1.7rem;
 }
 .at-gym{
-    line-height: 25px;
+    line-height: 28px;
     font-weight: 300;
     font-size: 17px;
+    text-align: justify;
 }
 .each-plan{
     margin-top: 35px;
@@ -746,6 +746,51 @@ hr{
     }
     .copy{
         font-size: 16px;
+    }
+    .pack-container{
+        flex-wrap: wrap;
+        padding: 30px 10px 30px 10px;
+        gap: 40px;
+    }
+    .packages{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .day-pass{
+        width: 300px;
+    }
+    .month-month{
+        width: 300px;
+    }
+    .from-punch{
+        margin: 30px 0 20px 0;
+        font-size: 1.3rem;
+    }
+    .at-gym{
+        line-height: 23px;
+        font-weight: 300;
+        font-size: 14px;
+        text-align: justify;
+    }
+    .each-plan{
+        margin-top: 25px;
+        font-size: 1.2rem;
+    }
+    .pack-rule ul{
+        margin-top: 20px !important;
+    }
+    .pack-rule ul li{
+        margin: 10px 0;
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 23px;
+    }
+    .pack-rule ul li i{
+        color: #1f1f1f;
+        margin-right: 6px;
+        font-weight: 600;
+    }
+    .mem-hr{
+        width: 50px;
     }
 }
 
