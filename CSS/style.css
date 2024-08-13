@@ -43,7 +43,6 @@ body{
 .header{
     background: linear-gradient(180.00deg, rgb(50, 50, 50),rgba(119, 119, 119, 0) 100%);
     width: 100%;
-    height: 100vh;
     padding-top: 3.56rem;
 }
 /* navbar styles */
@@ -122,6 +121,19 @@ body{
     margin: 28px 0;
     line-height: 24px;
 }
+.banner-img-container{
+    position: relative;
+}
+.free-video{
+    position: absolute;
+    top: 16%;
+    left: 58%;
+}
+.video-tutorial{
+    position: absolute;
+    bottom: 12%;
+    left: -32%;
+}
 .join-club{
     margin-right: 14px;
 }
@@ -166,23 +178,10 @@ body{
     display: flex;
     align-items: center;
 }
-.banner-img-container{
-    position: relative;
-}
-.free-video{
-    position: absolute;
-    top: 16%;
-    left: 58%;
-}
-.video-tutorial{
-    position: absolute;
-    bottom: 12%;
-    left: -32%;
-}
 /* main styles */
 .section{
-    width: 65%;
-    margin: 0 auto;
+    width: 80%;
+    margin: 5rem auto;
     margin-top: 100px;
     margin-bottom: 100px;
 }
@@ -602,7 +601,7 @@ hr{
 
 /* small devices */
 
-@media screen and (max-width:576px) {
+@media screen and (max-width: 576px) {
     .navbar{
         width: 90%;
     }
@@ -654,9 +653,6 @@ hr{
     }
     .section{
         width: 90%;
-    }
-    .change-habit{
-        margin-top: 46rem;
     }
     .change-habit-img-container{
         grid-template-columns: repeat(1,1fr);
@@ -834,9 +830,6 @@ hr{
         width: 30px;
         height: 30px;
     }
-    .change-habit{
-        margin-top: 55rem;
-    }
     .change-habit-img-container{
         grid-template-columns: repeat(2,1fr);
     }
@@ -978,9 +971,6 @@ hr{
         font-size: 15px;
         padding: 0.8rem 2rem;
     }
-    .change-habit{
-        margin-top: 60rem;
-    }
     .change-habit-img-container{
         grid-template-columns: repeat(2,1fr);
     }
@@ -991,11 +981,5 @@ hr{
         flex-wrap: wrap;
         padding: 30px 5px 30px 5px;
         gap: 40px;
-    }
-}
-
-@media screen and (min-width:1400px) {
-    .change-habit{
-        margin-top: 20rem;
     }
 }
